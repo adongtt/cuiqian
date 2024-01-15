@@ -34,7 +34,7 @@ const LINE_OPACITY = 0.9;
 // styling: map height
 const MAP_HEIGHT = 600;
 //set to `false` if you want to hide the road label characters
-const ROAD_LABEL_DISPLAY = true;
+const ROAD_LABEL_DISPLAY = false;
 //set to `true` if you want to display only the routes without showing the map.
 const PRIVACY_MODE = false;
 //set to `false` if you want to make light off as default, only effect when `PRIVACY_MODE` = false
@@ -94,7 +94,7 @@ export {
   LIGHTS_ON,
 };
 
-const nike = 'rgb(224,237,94)'; // if you want change the main color change here src/styles/variables.scss
+const nike = 'rgb(252,82,0)'; // if you want change the main color change here src/styles/variables.scss
 
 // If your map has an offset please change this line
 // issues #92 and #198
